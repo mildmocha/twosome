@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+    <defs>
+        <clipPath id="clip-path">
+            <path id="합치기_44" data-name="합치기 44" class="cls-1" d="m898.578-3193 1.422-8.093V-3205h5v12zM878-3193v-12h5v4.856l1.476 7.143z" transform="translate(-859 3351)"/>
+        </clipPath>
+        <style>
+            .cls-1,.cls-2{fill:none}.cls-1{stroke:#010101}.cls-3{fill:#010101}.cls-5{stroke:none}
+        </style>
+    </defs>
+    <g id="ico_reward_allmenu" transform="translate(-16 -138)">
+        <path id="area" class="cls-2" transform="translate(16 138)" d="M0 0h32v32H0z"/>
+        <g id="그룹_594" data-name="그룹 594">
+            <g id="사각형_444" data-name="사각형 444" class="cls-1">
+                <path class="cls-5" d="M0 0h19v10.5A9.5 9.5 0 0 1 9.5 20 9.5 9.5 0 0 1 0 10.5V0z" transform="translate(23 142)"/>
+                <path class="cls-2" d="M.974.5h17.052a.474.474 0 0 1 .474.474V10.5a9 9 0 0 1-9 9 9 9 0 0 1-9-9V.974A.474.474 0 0 1 .974.5z" transform="translate(23 142)"/>
+            </g>
+            <path id="사각형_446" data-name="사각형 446" class="cls-3" transform="translate(32 161)" d="M0 0h1v5H0z"/>
+            <path id="사각형_447" data-name="사각형 447" class="cls-3" transform="translate(26 165)" d="M0 0h13v1H0z"/>
+            <g id="마스크_그룹_8" data-name="마스크 그룹 8" style="clip-path:url(#clip-path)">
+                <g id="사각형_445" data-name="사각형 445" class="cls-1">
+                    <path class="cls-5" d="M0 0h27v6a6 6 0 0 1-6 6H6a6 6 0 0 1-6-6V0z" transform="translate(19 146)"/>
+                    <path class="cls-2" d="M1 .5h25a.5.5 0 0 1 .5.5v5a5.5 5.5 0 0 1-5.5 5.5H6A5.5 5.5 0 0 1 .5 6V1A.5.5 0 0 1 1 .5z" transform="translate(19 146)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

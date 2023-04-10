@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+    <defs>
+        <style>
+            .cls-2,.cls-5{fill:none}.cls-2{stroke:#010101}.cls-4{stroke:none}
+        </style>
+    </defs>
+    <g id="ico_category" transform="translate(-661 -182)">
+        <g id="사각형_238" data-name="사각형 238" class="cls-2">
+            <path class="cls-4" d="M0 0h8v8H0z" transform="translate(674 195)"/>
+            <path class="cls-5" d="M.5.5h7v7h-7z" transform="translate(674 195)"/>
+        </g>
+        <g id="사각형_240" data-name="사각형 240" style="stroke:#d60037;fill:none">
+            <path class="cls-4" d="M0 0h8v8H0z" transform="translate(674 185)"/>
+            <path class="cls-5" d="M.5.5h7v7h-7z" transform="translate(674 185)"/>
+        </g>
+        <g id="사각형_241" data-name="사각형 241" class="cls-2">
+            <path class="cls-4" d="M0 0h8v8H0z" transform="translate(664 195)"/>
+            <path class="cls-5" d="M.5.5h7v7h-7z" transform="translate(664 195)"/>
+        </g>
+        <g id="사각형_242" data-name="사각형 242" class="cls-2">
+            <path class="cls-4" d="M0 0h8v8H0z" transform="translate(664 185)"/>
+            <path class="cls-5" d="M.5.5h7v7h-7z" transform="translate(664 185)"/>
+        </g>
+    </g>
+</svg>
