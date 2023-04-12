@@ -1,9 +1,10 @@
 $('.sl').slick({
    slide:'li',
    infinite: false,
-   slidesToShow: 3,
-   slidesToScroll: 3,
-   arrows:false
+   slidesToShow: 2.5,
+   slidesToScroll: 1,
+   arrows:false,
+   touchThreshold: 200
 
  });
 

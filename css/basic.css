@@ -100,19 +100,55 @@ h1 {
 }
 
 footer {
+
   position: fixed;
   bottom: 0px;
   width: 100%;
+
+
 }
 
 .footer-text {
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 24px 16px 24px 24px;
-  background: gainsboro;
+  background: #f5f5f5;
 }
 
+.footer-text a {
+  display: contents;
+}
+
+.footer-text a>div {
+  float: left;
+  line-height: 1.5;
+}
+
+.footer-text span {
+  display: block;
+  font-size: 12px;
+}
+
+.footer-text em {
+  color: #d50037;
+  font-size: inherit;
+  vertical-align: top;
+}
+
+.footer-text strong {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+}
 
 .slick-slide {
   margin-right: 10px;
+}
+
+.tit {
+  font-size: 14px;
 }
 
 .button2 {
@@ -160,39 +196,51 @@ footer {
   top: 0;
   z-index: 3;
   background: #fff;
-  height: 100vh
+  height: 100vh;
+  transition: 0.5s ease-in-out;
+  line-height: 1.5;
 }
 
-.gnb>div {
-  
-  padding: 32px 0;
-}
-.space {    padding: 0 16px;
+
+
+.space {
+  padding: 0 16px;
   position: absolute;
   width: 240px;
   height: 48px;
   top: 0;
   left: 0;
-  background: #fff;}
-  .gnb-li1 {    position: absolute;
-    width: 100%;
-    height: 110px;
-    top: 48px;
-    left: 0;
-    padding: 32px 16px;
-    background: #fff;}
+  background: #fff;
+}
 
-  .gnb-li2 {position: absolute;
-    top: 158px;
-    height: 113px;
-    width: 100%;
-   
-    display: flex;
-   
-    justify-content: space-between;
-    background: #fff;
-    border-bottom: 1px solid #ebebeb;
-    padding: 0 16px 32px;}
+.gnb-li1 {
+  position: absolute;
+  width: 100%;
+  height: 110px;
+  top: 48px;
+  left: 0;
+  padding: 32px 16px;
+  background: #fff;
+}
+.gnb-li1 p {letter-spacing: -1.5px; font-size:17px; word-break: keep-all;}
+.gnb-li1 strong {font-weight:600; vertical-align: top;}
+.gnb-li2 {
+  font-size: 14px;
+  position: absolute;
+  top: 158px;
+  height: 113px;
+  width: 100%;
+
+  display: flex;
+
+  justify-content: space-between;
+  background: #fff;
+  border-bottom: 1px solid #ebebeb;
+  
+}
+.gnb-li2 ul {width:100%;}
+.gnb-li2 a {display: block;}
+
 .gnb-li2 ul::after {
   clear: both;
   content: "";
@@ -200,19 +248,43 @@ footer {
 }
 
 .gnb-li2 li {
+  text-align: center;
+  width: 33.33333333%;
   float: left
 }
-.gnb > .scroll { box-sizing: border-box;
-  height:100%;
+.gnb-li2 .circle {    width: 53px;
+  height: 53px;
+  border: 1px solid #ebebeb;
+  border-radius: 50%;
+  display: inline-block;}
+
+
+.c1 { background: url(../img/ico_32_gnb_mypage.png) no-repeat 50% 50% / 32px;}
+.c2 { background: url(../img/ico_32_gnb_menuinfo2.svg) no-repeat 50% 50% / 32px;}
+.c3 { background: url(../img/ico_32_gnb_shop2.svg) no-repeat 50% 50% / 32px;}
+
+.gnb-li2 span { display: block; padding-top: 2px; letter-spacing: -1px;}
+.gnb-li3 a { display: flex; align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;}
+  
+.gnb>.scroll {
+  box-sizing: border-box;
+  height: 100%;
   padding-top: 270px;
   overflow-y: scroll;
   overscroll-behavior-y: contain;
 }
-.scroll > div { margin: 0 16px;
 
-  padding: 32px 0;}
+.scroll>div {
+  margin: 0 16px;
+
+  padding: 32px 0;
+}
 
 .gnb-li4 li {
+  
   float: left
 }
 
@@ -221,3 +293,4 @@ footer {
   content: "";
   display: block;
 }
+.u1 li {margin-top:16px;}
